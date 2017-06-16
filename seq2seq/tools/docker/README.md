@@ -1,7 +1,7 @@
 # Using TF-Seq2Seq via Docker
 
 This directory contains `Dockerfile`s to make it easy to get up and running with
-TensorFlow via [Docker](https://www.docker.com/).
+TF-Seq2Seq via [Docker](https://www.docker.com/).
 
 
 ## Installing Docker
@@ -19,18 +19,18 @@ quick links here:
 
 ## Dockerfile
 
-At the moment we haven't deploy an automatic pipeline to build container, so we provide the Dockerfiles to build containers.
+At the moment we haven't deployed an automatic pipeline to build container, so we provide the Dockerfile to build images
 This directory is structured to maintain Dockerfile for python2.7(py27) and python3.5(py35).
 
 * `Dockerfile` - TF-Seq2Seq - CPU only!
 
-* `Dockerfile.devel` - Developer build for TF-Seq2Seq - CPU only
+* `Dockerfile.devel` - Developer build for TF-Seq2Seq - CPU only!
 
 * `Dockerfile.gpu` - TF-Seq2Seq with support of NVidia CUDA
 
 * `Dockerfile.devel-gpu` - Developer build for TF-Seq2Seq with support of NVidia CUDA
 
-The file above, are built from the [official TensorFlow Docker directory](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/tools/docker/README.md) and with **lastest** TensorFlow version/tags.
+The file above, are coded from the [official TensorFlow Docker directory](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/tools/docker/README.md) and with **latest** TensorFlow version/tags.
 
 
 ## Build your image
@@ -88,7 +88,7 @@ For GPU support install NVidia drivers (ideally latest) and
 
     $ nvidia-docker run -it -p hostPort:containerPort {repository_name}(provided during the building step)
 
-The examples are same as above with the only difference that the command is `nvidia-docker`.
+The examples are the same as above with the only difference that the command is `nvidia-docker`.
 
 Note: If you would have a problem running nvidia-docker you may try the old method
 we have used. But it is not recommended. If you find a bug in nvidia-docker, please report
