@@ -255,7 +255,7 @@ The above command also demonstrates how to pass several tasks to the inference s
 
 ### Evaluating specific checkpoint
 
-The training script will save multiple model checkpoints throughout training. The exact checkpoint behavior can be controlled via [training script flags](training/). By default, the inference script evaluates the latest checkpoint in the model directory. To evaluate a specific checkpiint you can pass the `checkpoint_path` flag.
+The training script will save multiple model checkpoints throughout training. The exact checkpoint behavior can be controlled via [training script flags](training/). By default, the inference script evaluates the latest checkpoint in the model directory. To evaluate a specific checkpoint you can pass the `checkpoint_path` flag.
 
 
 ## Calcuating BLEU scores
