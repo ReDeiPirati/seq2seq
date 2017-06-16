@@ -1,3 +1,5 @@
+# TF-Seq2Seq (v0.1.0)
+
 [![CircleCI](https://circleci.com/gh/google/seq2seq.svg?style=svg)](https://circleci.com/gh/google/seq2seq)
 
 ---
