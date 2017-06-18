@@ -21,7 +21,7 @@ First of all you have to build the image for running tf-seq2seq, according to yo
 * [Docker for Python 2.7](https://github.com/google/seq2seq/seq2seq/tools/docker/py27)
 * [Docker for Python 3.5](https://github.com/google/seq2seq/seq2seq/tools/docker/py35)
 
-Both the directory have Dockerfile to build image with basic depenecies(Dockerfile), development dependecies(Dockerfile.devel) and GPU support(Dockerfile.gpu and Dockerfile.devel-gpu). The file provided, are coded from the [official TensorFlow Docker directory](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/tools/docker/README.md) with **latest** TensorFlow version/tags.
+Both the directories have Dockerfile to build image with basic depenecies(Dockerfile), development dependecies(Dockerfile.devel) and GPU support(Dockerfile.gpu and Dockerfile.devel-gpu). The file provided, are coded from the [official TensorFlow Docker directory](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/tools/docker/README.md) with **latest** TensorFlow version/tags.
 Now you are ready to build the image(you have to be in py27 or py35 dir to run this command):
 
 ```bash
